@@ -1,0 +1,4 @@
+local player = game.Players.LocalPlayer
+local banMessage = "you have been banned, do not attempt to exploit in this experience."
+
+player:Kick(banMessage)
